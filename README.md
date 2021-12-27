@@ -2,7 +2,7 @@
 Examples of data analyst portfolio.
 
 
-# [Project 3: Data cleaning Nashville Housing: Project Overview] (https://angelcastle523.github.io/Porfolio_Projects/)
+# [Project 3: Data cleaning Nashville Housing: Project Overview](https://angelcastle523.github.io/Porfolio_Projects/)
 For this project example I cleaned the data of a housing data set in MS SQL to improve the data quality for better analysis. 
 Processes included:
 *Standarize Date Format

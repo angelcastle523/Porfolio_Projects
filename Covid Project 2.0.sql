@@ -138,7 +138,6 @@ Create View PercentPopulationVaccinated2 as
 Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations, 
 SUM(Cast(vac.new_vaccinations as int)) OVER (Partition by dea.Location Order By dea.location,
 dea.date) as RollingPeopleVaccinated
--- La particion hace que no se sumen todos los paises, osea solo estara la suma de las personas de ese pais
 FROM PortfolioProject..CovidDeaths_Project_1$ dea
 Join PortfolioProject..CovidVaccinations$ vac
      ON dea.location = vac.location
